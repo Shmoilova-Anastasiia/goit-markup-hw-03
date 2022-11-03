@@ -66,9 +66,12 @@
     
     
     /*---------HEADER--------*/
+    .header {
+        border-bottom: 1px solid #ECECEC;
+    }
     .header-container{
     display: flex;
-    border-bottom: 1px solid #ECECEC;
+   
     }
     .nav-container{
     display: flex; 
@@ -374,8 +377,7 @@
         }
    .card-portfolio{
     width: 370px;
-    padding-top: 20px; 
-    padding-bottom: 20px; 
+    padding: 20px 24px; 
     border: 1px solid rgba(0, 0, 0, 0.12);  
     border-top: none;
    }
